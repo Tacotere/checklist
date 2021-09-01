@@ -1,0 +1,96 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: linear-gradient(to right, #6859d0, #b163c3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  font-family: Poppins;
+  margin: 0;
+}
+
+.todoContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+  font-size: calc(12px + 3vw);
+}
+
+.inputContainer {
+  display: flex;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  font-size: calc(10px + 1.25vw);
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 25px;
+  border: none;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.singleTaskContainer {
+  width: 59.8%;
+  background-color: white;
+  font-size: calc(10px + 1.25vw);
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.enterButton {
+  border-radius: 3px;
+  background-color: #bf67bd;
+  font-size: calc(10px + 0.75vw);
+}
+
+.checkButton {
+  margin-left: auto;
+  background-color: rgb(30, 133, 30);
+  padding: 10px 15px;
+}
+
+.trashButton {
+  background-color: rgb(211, 58, 58);
+  padding: 10px 15px;
+}
+
+.checkmark {
+  height: 25px;
+}
+
+.trashBin {
+  height: 25px;
+}
+.taskName {
+  margin-left: 10px;
+}
+
+.resetButton {
+  width: 42%;
+  margin-top: 8px;
+  border: 2px solid white;
+  background-image: linear-gradient(to right, #6859d0, #b163c3);
+  font-size: calc(10px + 1vw);
+}
